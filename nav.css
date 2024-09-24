@@ -1,0 +1,63 @@
+/* Container for the testimonial carousel */
+.carousel-inner {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.testimonial-item {
+  box-sizing: content-box;
+  min-height: 320px;
+}
+
+.testimonial-item .testimonial-img {
+  width: 90px;
+  border-radius: 50%;
+  margin: -40px 0 0 40px;
+  position: relative;
+  z-index: 2;
+  border: 6px solid #0000;
+}
+
+.testimonial-item h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 5px 45px;
+}
+
+.testimonial-item h4 {
+  font-size: 14px;
+  color: color-mix(in srgb, #ffff, transparent 20%);
+  margin: 0 0 0 45px;
+}
+
+.testimonial-item .quote-icon-left,
+.testimonial-item .quote-icon-right {
+  color: color-mix(in srgb, crimson, transparent 50%);
+  font-size: 26px;
+  line-height: 0;
+}
+
+.testimonial-item .quote-icon-left {
+  display: inline-block;
+  left: -5px;
+  position: relative;
+}
+
+.testimonial-item .quote-icon-right {
+  display: inline-block;
+  right: -5px;
+  position: relative;
+  top: 10px;
+  transform: scale(-1, -1);
+}
+
+.testimonial-item p {
+  font-style: italic;
+  margin: 0 15px 0 15px;
+  padding: 20px 20px 60px 20px;
+  background: #1a1a1a;
+  border-radius: 6px;
+  position: relative;
+  z-index: 1;
+}
